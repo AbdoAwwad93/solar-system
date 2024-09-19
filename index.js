@@ -54,14 +54,14 @@ const hemisphereLight = new THREE.HemisphereLight(0xffffbb, 0x080820, 1);
 scene.add(hemisphereLight);
 
 const planetData = [
-  { name: 'Mercury', radius: 1, distance: 20, orbitalPeriod: 88, rotationPeriod: 58.65, texture: './textures/Planets/8k_mercury.jpg', color: 0xaaaaaa },
-  { name: 'Venus', radius: 1.5, distance: 30, orbitalPeriod: 224.7, rotationPeriod: -243, texture: './textures/Planets/8k_venus_surface.jpg', color: 0xffd700 },
+  { name: 'Mercury', radius: 1, distance: 20, orbitalPeriod: 88, rotationPeriod: 58.65, texture: './textures/planets/8k_mercury.jpg', color: 0xaaaaaa },
+  { name: 'Venus', radius: 1.5, distance: 30, orbitalPeriod: 224.7, rotationPeriod: -243, texture: './textures/planets/8k_venus_surface.jpg', color: 0xffd700 },
   { name: 'Earth', radius: 2, distance: 40, orbitalPeriod: 365.25, rotationPeriod: 1, texture: './textures/Earth/8k_earth_daymap.jpg', color: 0x00ff00 },
-  { name: 'Mars', radius: 1.7, distance: 55, orbitalPeriod: 687, rotationPeriod: 1.03, texture: './textures/Planets/8k_mars.jpg', color: 0xff4500 },
-  { name: 'Jupiter', radius: 11.2, distance: 100, orbitalPeriod: 4333, rotationPeriod: 0.41, texture: './textures/Planets/8k_jupiter.jpg', color: 0xffa500 },
-  { name: 'Saturn', radius: 6, distance: 138, orbitalPeriod: 10759, rotationPeriod: 0.44, texture: './textures/Planets/8k_saturn.jpg', color: 0xffd700, hasRing: true },
-  { name: 'Uranus', radius: 4, distance: 176, orbitalPeriod: 30687, rotationPeriod: -0.72, texture: './textures/Planets/2k_uranus.jpg', color: 0x00ffff },
-  { name: 'Neptune', radius: 3.88, distance: 200, orbitalPeriod: 60190, rotationPeriod: 0.67, texture: './textures/Planets/2k_neptune.jpg', color: 0x0000ff },
+  { name: 'Mars', radius: 1.7, distance: 55, orbitalPeriod: 687, rotationPeriod: 1.03, texture: './textures/planets/8k_mars.jpg', color: 0xff4500 },
+  { name: 'Jupiter', radius: 11.2, distance: 100, orbitalPeriod: 4333, rotationPeriod: 0.41, texture: './textures/planets/8k_jupiter.jpg', color: 0xffa500 },
+  { name: 'Saturn', radius: 6, distance: 138, orbitalPeriod: 10759, rotationPeriod: 0.44, texture: './textures/planets/8k_saturn.jpg', color: 0xffd700, hasRing: true },
+  { name: 'Uranus', radius: 4, distance: 176, orbitalPeriod: 30687, rotationPeriod: -0.72, texture: './textures/planets/2k_uranus.jpg', color: 0x00ffff },
+  { name: 'Neptune', radius: 3.88, distance: 200, orbitalPeriod: 60190, rotationPeriod: 0.67, texture: './textures/planets/2k_neptune.jpg', color: 0x0000ff },
 ];
 
 
